@@ -8,6 +8,7 @@ fr:
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     organizations: /organisations/:slug/
+    persons: /equipe/:slug/
 en:
   title: Site démo
   contentDir: content/en
@@ -16,3 +17,4 @@ en:
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     organizations: /organisations/:slug/
+    persons: /equipe/:slug/
