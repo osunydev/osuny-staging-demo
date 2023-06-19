@@ -6,3 +6,4 @@ en:
   languageCode: en
   languageName: English
   permalinks:
+    posts: /actualites/:year-:month-:day-:slug/
