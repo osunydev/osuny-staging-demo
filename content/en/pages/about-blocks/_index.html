@@ -1,7 +1,10 @@
 ---
-title: >
-  About blocks
+title: "About blocks"
 breadcrumb_title: "About blocks"
+breadcrumbs:
+  - title: "Accueil"
+    path: "/en/"
+  - title: "About blocks"
 url: "/en/about-blocks/"
 slug: "about-blocks"
 aliases:
@@ -16,6 +19,7 @@ design:
     offcanvas: false
 
 position: 1
+weight: 1
 translation_key: communication-website-page-a232b832-c5f3-4dd3-b528-df344a4f2a86
 
 bodyclass: 
@@ -37,8 +41,10 @@ description_short: >
 
 header_text: >-
   
-legacy_text: >
-  
+contents_reading_time:
+  seconds: 96
+  text: >-
+    2 minutes
 contents:
   - kind: heading
     title: >-
@@ -47,7 +53,7 @@ contents:
     level: 2
   - kind: block
     template: chapter
-    title: >
+    title: >-
       
     position: 1
     data:
@@ -55,20 +61,15 @@ contents:
       text: >-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a est placerat, molestie velit ultrices, consequat diam. Sed egestas vulputate neque, eget eleifend elit vehicula sit amet. Sed massa ipsum, faucibus at malesuada non, feugiat vel purus. Ut vehicula luctus semper. Donec vitae purus in diam maximus fringilla id at libero. Curabitur pellentesque, mi eget laoreet ultrices, elit nunc elementum diam, sit amet vestibulum ligula leo in risus. Pellentesque euismod diam non felis laoreet, at facilisis est dictum. Aliquam ornare nisl ut ligula placerat, id hendrerit felis tristique. Nullam at euismod risus. Vivamus vitae nibh mi. Ut ultricies vehicula ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non sollicitudin mi, nec maximus ligula.</p>
 
-
       notes: >-
         
-
-
 
 
       alt: >-
         
 
-
       credit: >-
         
-
 
 
 
@@ -80,56 +81,45 @@ contents:
     level: 2
   - kind: block
     template: features
-    title: >
+    title: >-
       
     position: 11
     data:
       description: >-
         
 
-
       elements:
         - title: >-
             Feature 1
 
-
           description: >-
             Praesent ullamcorper ligula est, nec semper enim interdum quis. Donec ultricies nec augue ut dignissim. Aenean tincidunt ultrices faucibus. Ut ultrices mattis elit quis dictum. Maecenas tincidunt ante turpis, sit amet tempor elit eleifend ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer pretium sapien nec ipsum luctus efficitur. Suspendisse tristique turpis mi, et varius elit auctor sed.
-
 
           image:
             id: "85294262-a05e-4294-870f-d88638b410d7"
             file: "85294262-a05e-4294-870f-d88638b410d7"
 
-
           alt: >-
             
-
 
           credit: >-
             
 
-
         - title: >-
             Feature 2
 
-
           description: >-
             Praesent ullamcorper ligula est, nec semper enim interdum quis. Donec ultricies nec augue ut dignissim. Aenean tincidunt ultrices faucibus. Ut ultrices mattis elit quis dictum. Maecenas tincidunt ante turpis, sit amet tempor elit eleifend ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer pretium sapien nec ipsum luctus efficitur. Suspendisse tristique turpis mi, et varius elit auctor sed.
-
 
           image:
             id: "ecf5f5a7-bed4-43aa-9bf0-5983d4216403"
             file: "ecf5f5a7-bed4-43aa-9bf0-5983d4216403"
 
-
           alt: >-
             
 
-
           credit: >-
             
-
 
 
 
@@ -141,7 +131,7 @@ contents:
     level: 2
   - kind: block
     template: pages
-    title: >
+    title: >-
       
     position: 12
     data:
@@ -150,10 +140,14 @@ contents:
       show_images: true
       layout: grid
       pages:
-        - page: /en/actualites/
-          slug: /en/actualites/
-        - page: /en/mentions-legales/
-          slug: /en/mentions-legales/
+        - path: "/en/actualites/"
+          slug: "actualites"
+          file: "content/en/posts/_index.html"
+          external: false
+        - path: "/en/mentions-legales/"
+          slug: "mentions-legales"
+          file: "content/en/pages/mentions-legales/_index.html"
+          external: false
 
 
 
@@ -164,7 +158,7 @@ contents:
     level: 2
   - kind: block
     template: posts
-    title: >
+    title: >-
       
     position: 13
     data:
@@ -181,24 +175,21 @@ contents:
     position: 4
     level: 2
   - kind: block
-    template: organization_chart
-    title: >
+    template: persons
+    title: >-
       
     position: 14
     data:
       description: >-
         
 
-
       with_link: true
-
       with_photo: true
-
       persons:
         - slug: "personne-test"
+          external: false
           role: >-
             
-
 
 
 
@@ -210,23 +201,32 @@ contents:
     level: 2
   - kind: block
     template: video
-    title: >
+    title: >-
       
     position: 3
     data:
       url: >-
         https://vimeo.com/783453912
 
-
       video_title: >-
         Titre de la vidéo
 
-
       video_iframe: >-
         <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/783453912" title="Titre de la vidéo"></iframe>
+      video: 
+        platform: "vimeo"
+        identifier: "783453912"
+        title: "Titre de la vidéo"
+        poster: >-
+          https://vumbnail.com/783453912.jpg
+        embed: >-
+          https://player.vimeo.com/video/783453912
+        embed_with_defaults: >-
+          https://player.vimeo.com/video/783453912?autoplay=1&amp;quality=360p
+        iframe: >-
+          <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/783453912" title="Titre de la vidéo"></iframe>
       transcription: >-
         
-
 
 
 
@@ -237,8 +237,8 @@ contents:
     position: 6
     level: 2
   - kind: block
-    template: partners
-    title: >
+    template: organizations
+    title: >-
       
     position: 15
     data:
@@ -246,11 +246,10 @@ contents:
       description: >-
         
 
-
       with_link: true
-
-      partners:
+      organizations:
         - slug: "noesya"
+          external: false
 
 
 
@@ -261,7 +260,7 @@ contents:
     level: 2
   - kind: block
     template: programs
-    title: >
+    title: >-
       
     position: 16
     data:
@@ -276,22 +275,19 @@ contents:
     level: 2
   - kind: block
     template: files
-    title: >
+    title: >-
       
     position: 17
     data:
       description: >-
         
 
-
       files:
         - id: "b5c42061-7270-4e23-88dc-8847ae7bf24e"
           file: "b5c42061-7270-4e23-88dc-8847ae7bf24e"
 
-
           title: >-
             Image
-
 
 
 
@@ -303,22 +299,19 @@ contents:
     level: 2
   - kind: block
     template: definitions
-    title: >
+    title: >-
       
     position: 18
     data:
       description: >-
         
 
-
       elements:
         - title: >-
             Def
 
-
           description: >-
             Texte
-
 
 
 
@@ -330,17 +323,15 @@ contents:
     level: 2
   - kind: block
     template: embed
-    title: >
+    title: >-
       
     position: 19
     data:
       code: >-
         <b>ICI</b>
 
-
       transcription: >-
         
-
 
 
 
@@ -352,42 +343,40 @@ contents:
     level: 2
   - kind: block
     template: contact
-    title: >
+    title: >-
       
     position: 20
     data:
       description: >-
         
 
-
       name: >-
         Arnaud Levy
 
+      information: >-
+        
 
       address:
         address: >-
           37 rue Orfila
 
-
         zipcode: >-
           75020
 
-
         city: >-
           Paris
-
 
         country: >-
           France
 
 
-
       phone_numbers: ["+33 6 87 60 21 93"]
 
+      url: >-
+        
 
 
       emails: ["arnaud.levy@noesya.coop"]
-
 
       timetable:
 
@@ -400,28 +389,23 @@ contents:
     level: 2
   - kind: block
     template: timeline
-    title: >
+    title: >-
       
     position: 10
     data:
       layout: vertical
-
       events:
         - title: >-
             1970
 
-
           text: >-
             Les seventies
-
 
         - title: >-
             1990
 
-
           text: >-
             Les nineties
-
 
 
 
@@ -433,26 +417,22 @@ contents:
     level: 2
   - kind: block
     template: image
-    title: >
+    title: >-
       
     position: 2
     data:
       text: >-
         
 
-
       image:
         id: "be91f87c-e03b-4734-90ac-d29fae903072"
         file: "be91f87c-e03b-4734-90ac-d29fae903072"
 
-
         alt: >-
           
 
-
         credit: >-
           
-
 
 
 
@@ -464,7 +444,7 @@ contents:
     level: 2
   - kind: block
     template: datatable
-    title: >
+    title: >-
       
     position: 5
     data:
@@ -472,22 +452,17 @@ contents:
         
 
 
-
       columns: ["", "Colonne 2", "Colonne 3"]
-
 
       rows:
 
         - ["Ligne 1", "A", "B"]
 
 
-
         - ["Ligne 2", "C", "D"]
-
 
       caption: >-
         
-
 
 
 
@@ -499,34 +474,27 @@ contents:
     level: 2
   - kind: block
     template: key_figures
-    title: >
+    title: >-
       
     position: 6
     data:
       description: >-
         
 
-
       figures:
         - number: 3500
-
           unit: >-
             km
 
-
           description: >-
             parcourus
 
-
         - number: 0.235
-
           unit: >-
             mm
 
-
           description: >-
             parcourus
-
 
 
 
@@ -538,86 +506,68 @@ contents:
     level: 2
   - kind: block
     template: gallery
-    title: >
+    title: >-
       
     position: 7
     data:
       description: >-
         
 
-
       layout: grid
-
       images:
         - id: "97a05893-9f70-488a-8303-d89a9d65cac2"
           file: "97a05893-9f70-488a-8303-d89a9d65cac2"
 
-
           alt: >-
             
-
 
           credit: >-
             
 
-
           text: >-
             
-
 
         - id: "52d2e714-7abc-415b-8529-8b393b7c8887"
           file: "52d2e714-7abc-415b-8529-8b393b7c8887"
 
-
           alt: >-
             
-
 
           credit: >-
             
 
-
           text: >-
             
-
 
         - id: "d92fd9c7-2801-4855-9972-35e049812c58"
           file: "d92fd9c7-2801-4855-9972-35e049812c58"
 
-
           alt: >-
             
-
 
           credit: >-
             
 
-
           text: >-
             
-
 
         - id: "596f9329-e111-4c99-96bd-cb082e22b70a"
           file: "596f9329-e111-4c99-96bd-cb082e22b70a"
 
-
           alt: >-
             
-
 
           credit: >-
             
 
-
           text: >-
             
-
 
 
 
   - kind: block
     template: call_to_action
-    title: >
+    title: >-
       Un appel à action
     position: 8
     data:
@@ -625,27 +575,20 @@ contents:
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor enim eu lorem congue, sed fringilla massa pulvinar. Phasellus molestie consectetur felis, ut mollis dolor interdum et. Vestibulum sagittis ut tortor ac dapibus.</p>
 
 
-
-
       alt: >-
         
 
-
       credit: >-
         
-
 
       buttons:
         - title: >-
             Cliquez ici
 
-
           url: >-
             /actualites/2023-06-19-actualite-de-test/
 
-
           target_blank: false
-
 
 
 
@@ -657,7 +600,7 @@ contents:
     level: 2
   - kind: block
     template: testimonials
-    title: >
+    title: >-
       
     position: 9
     data:
@@ -665,19 +608,15 @@ contents:
         - text: >-
             Donec nec magna a lacus bibendum elementum vitae eget nisi. Suspendisse in arcu elit
 
-
           author: >-
             Bibendum Elementum
-
 
           job: >-
             Suspendisse in arcu
 
-
           photo:
             id: "c4e3a16b-4ed0-4f3b-98a2-7334a1444b8f"
             file: "c4e3a16b-4ed0-4f3b-98a2-7334a1444b8f"
-
 
 
 
@@ -689,93 +628,6 @@ contents:
     level: 2
   - kind: block
     template: sound
-    title: >
-      
-    position: 4
-    data:
-      file:
-        id: "a0f454b7-f5ae-421c-8725-9812b8036b95"
-        file: "a0f454b7-f5ae-421c-8725-9812b8036b95"
-
-
-      title: >-
-        
-
-
-      transcription: >-
-        
-
-
-
-
-
-blocks:
-  - template: chapter
-    title: >-
-      
-    position: 1
-    data:
-      layout: no_background
-      text: >-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a est placerat, molestie velit ultrices, consequat diam. Sed egestas vulputate neque, eget eleifend elit vehicula sit amet. Sed massa ipsum, faucibus at malesuada non, feugiat vel purus. Ut vehicula luctus semper. Donec vitae purus in diam maximus fringilla id at libero. Curabitur pellentesque, mi eget laoreet ultrices, elit nunc elementum diam, sit amet vestibulum ligula leo in risus. Pellentesque euismod diam non felis laoreet, at facilisis est dictum. Aliquam ornare nisl ut ligula placerat, id hendrerit felis tristique. Nullam at euismod risus. Vivamus vitae nibh mi. Ut ultricies vehicula ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non sollicitudin mi, nec maximus ligula.</p>
-
-
-      notes: >-
-        
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-  - template: image
-    title: >-
-      
-    position: 2
-    data:
-      text: >-
-        
-
-
-      image:
-        id: "be91f87c-e03b-4734-90ac-d29fae903072"
-        file: "be91f87c-e03b-4734-90ac-d29fae903072"
-
-
-        alt: >-
-          
-
-
-        credit: >-
-          
-
-
-  - template: video
-    title: >-
-      
-    position: 3
-    data:
-      url: >-
-        https://vimeo.com/783453912
-
-
-      video_title: >-
-        Titre de la vidéo
-
-
-      video_iframe: >-
-        <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/783453912" title="Titre de la vidéo"></iframe>
-      transcription: >-
-        
-
-
-  - template: sound
     title: >-
       
     position: 4
@@ -784,427 +636,14 @@ blocks:
         id: "a0f454b7-f5ae-421c-8725-9812b8036b95"
         file: "a0f454b7-f5ae-421c-8725-9812b8036b95"
 
-
       title: >-
         
 
-
       transcription: >-
         
 
 
-  - template: datatable
-    title: >-
-      
-    position: 5
-    data:
-      description: >-
-        
 
-
-
-      columns: ["", "Colonne 2", "Colonne 3"]
-
-
-      rows:
-
-        - ["Ligne 1", "A", "B"]
-
-
-
-        - ["Ligne 2", "C", "D"]
-
-
-      caption: >-
-        
-
-
-  - template: key_figures
-    title: >-
-      
-    position: 6
-    data:
-      description: >-
-        
-
-
-      figures:
-        - number: 3500
-
-          unit: >-
-            km
-
-
-          description: >-
-            parcourus
-
-
-        - number: 0.235
-
-          unit: >-
-            mm
-
-
-          description: >-
-            parcourus
-
-
-  - template: gallery
-    title: >-
-      
-    position: 7
-    data:
-      description: >-
-        
-
-
-      layout: grid
-
-      images:
-        - id: "97a05893-9f70-488a-8303-d89a9d65cac2"
-          file: "97a05893-9f70-488a-8303-d89a9d65cac2"
-
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-          text: >-
-            
-
-
-        - id: "52d2e714-7abc-415b-8529-8b393b7c8887"
-          file: "52d2e714-7abc-415b-8529-8b393b7c8887"
-
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-          text: >-
-            
-
-
-        - id: "d92fd9c7-2801-4855-9972-35e049812c58"
-          file: "d92fd9c7-2801-4855-9972-35e049812c58"
-
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-          text: >-
-            
-
-
-        - id: "596f9329-e111-4c99-96bd-cb082e22b70a"
-          file: "596f9329-e111-4c99-96bd-cb082e22b70a"
-
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-          text: >-
-            
-
-
-  - template: call_to_action
-    title: >-
-      Un appel à action
-    position: 8
-    data:
-      text: >-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor enim eu lorem congue, sed fringilla massa pulvinar. Phasellus molestie consectetur felis, ut mollis dolor interdum et. Vestibulum sagittis ut tortor ac dapibus.</p>
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-      buttons:
-        - title: >-
-            Cliquez ici
-
-
-          url: >-
-            /actualites/2023-06-19-actualite-de-test/
-
-
-          target_blank: false
-
-
-  - template: testimonials
-    title: >-
-      
-    position: 9
-    data:
-      testimonials:
-        - text: >-
-            Donec nec magna a lacus bibendum elementum vitae eget nisi. Suspendisse in arcu elit
-
-
-          author: >-
-            Bibendum Elementum
-
-
-          job: >-
-            Suspendisse in arcu
-
-
-          photo:
-            id: "c4e3a16b-4ed0-4f3b-98a2-7334a1444b8f"
-            file: "c4e3a16b-4ed0-4f3b-98a2-7334a1444b8f"
-
-
-  - template: timeline
-    title: >-
-      
-    position: 10
-    data:
-      layout: vertical
-
-      events:
-        - title: >-
-            1970
-
-
-          text: >-
-            Les seventies
-
-
-        - title: >-
-            1990
-
-
-          text: >-
-            Les nineties
-
-
-  - template: features
-    title: >-
-      
-    position: 11
-    data:
-      description: >-
-        
-
-
-      elements:
-        - title: >-
-            Feature 1
-
-
-          description: >-
-            Praesent ullamcorper ligula est, nec semper enim interdum quis. Donec ultricies nec augue ut dignissim. Aenean tincidunt ultrices faucibus. Ut ultrices mattis elit quis dictum. Maecenas tincidunt ante turpis, sit amet tempor elit eleifend ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer pretium sapien nec ipsum luctus efficitur. Suspendisse tristique turpis mi, et varius elit auctor sed.
-
-
-          image:
-            id: "85294262-a05e-4294-870f-d88638b410d7"
-            file: "85294262-a05e-4294-870f-d88638b410d7"
-
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-        - title: >-
-            Feature 2
-
-
-          description: >-
-            Praesent ullamcorper ligula est, nec semper enim interdum quis. Donec ultricies nec augue ut dignissim. Aenean tincidunt ultrices faucibus. Ut ultrices mattis elit quis dictum. Maecenas tincidunt ante turpis, sit amet tempor elit eleifend ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer pretium sapien nec ipsum luctus efficitur. Suspendisse tristique turpis mi, et varius elit auctor sed.
-
-
-          image:
-            id: "ecf5f5a7-bed4-43aa-9bf0-5983d4216403"
-            file: "ecf5f5a7-bed4-43aa-9bf0-5983d4216403"
-
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-  - template: pages
-    title: >-
-      
-    position: 12
-    data:
-      show_main_description: true
-      show_descriptions: true
-      show_images: true
-      layout: grid
-      pages:
-        - page: /en/actualites/
-          slug: /en/actualites/
-        - page: /en/mentions-legales/
-          slug: /en/mentions-legales/
-  - template: posts
-    title: >-
-      
-    position: 13
-    data:
-      all: true
-      layout: grid
-      posts:
-        - "2023/2023-06-19-actualite-de-test"
-  - template: organization_chart
-    title: >-
-      
-    position: 14
-    data:
-      description: >-
-        
-
-
-      with_link: true
-
-      with_photo: true
-
-      persons:
-        - slug: "personne-test"
-          role: >-
-            
-
-
-  - template: partners
-    title: >-
-      
-    position: 15
-    data:
-      layout: grid
-      description: >-
-        
-
-
-      with_link: true
-
-      partners:
-        - slug: "noesya"
-  - template: programs
-    title: >-
-      
-    position: 16
-    data:
-      programs:
-  - template: files
-    title: >-
-      
-    position: 17
-    data:
-      description: >-
-        
-
-
-      files:
-        - id: "b5c42061-7270-4e23-88dc-8847ae7bf24e"
-          file: "b5c42061-7270-4e23-88dc-8847ae7bf24e"
-
-
-          title: >-
-            Image
-
-
-  - template: definitions
-    title: >-
-      
-    position: 18
-    data:
-      description: >-
-        
-
-
-      elements:
-        - title: >-
-            Def
-
-
-          description: >-
-            Texte
-
-
-  - template: embed
-    title: >-
-      
-    position: 19
-    data:
-      code: >-
-        <b>ICI</b>
-
-
-      transcription: >-
-        
-
-
-  - template: contact
-    title: >-
-      
-    position: 20
-    data:
-      description: >-
-        
-
-
-      name: >-
-        Arnaud Levy
-
-
-      address:
-        address: >-
-          37 rue Orfila
-
-
-        zipcode: >-
-          75020
-
-
-        city: >-
-          Paris
-
-
-        country: >-
-          France
-
-
-
-      phone_numbers: ["+33 6 87 60 21 93"]
-
-
-
-      emails: ["arnaud.levy@noesya.coop"]
-
-
-      timetable:
 
 
 ---
