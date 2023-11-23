@@ -4,7 +4,8 @@ breadcrumb_title: "About blocks"
 breadcrumbs:
   - title: "Accueil"
     path: "/en/"
-  - title: "About blocks"
+  - title: >-
+      About blocks
 url: "/en/about-blocks/"
 slug: "about-blocks"
 aliases:
@@ -50,12 +51,13 @@ contents:
     title: >-
       Un chapitre
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
-    position: 1
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -78,12 +80,14 @@ contents:
     title: >-
       Des fonctionnalités
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: features
     title: >-
       
-    position: 11
+    ranks:
+      self: false
+      children: 3
     data:
       description: >-
         
@@ -128,12 +132,14 @@ contents:
     title: >-
       Des pages
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: pages
     title: >-
       
-    position: 12
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: true
       show_descriptions: true
@@ -155,12 +161,14 @@ contents:
     title: >-
       Des actualités
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
-    position: 13
+    ranks:
+      self: false
+      children: 3
     data:
       all: true
       layout: grid
@@ -173,12 +181,14 @@ contents:
     title: >-
       Des personnes
     position: 4
-    level: 2
+    rank: 2
   - kind: block
     template: persons
     title: >-
       
-    position: 14
+    ranks:
+      self: false
+      children: 3
     data:
       description: >-
         
@@ -198,12 +208,13 @@ contents:
     title: >-
       Une vidéo
     position: 5
-    level: 2
+    rank: 2
   - kind: block
     template: video
     title: >-
       
-    position: 3
+    ranks:
+      self: false
     data:
       url: >-
         https://vimeo.com/783453912
@@ -235,12 +246,14 @@ contents:
     title: >-
       Des organisations
     position: 6
-    level: 2
+    rank: 2
   - kind: block
     template: organizations
     title: >-
       
-    position: 15
+    ranks:
+      self: false
+      children: 3
     data:
       layout: grid
       description: >-
@@ -257,12 +270,13 @@ contents:
     title: >-
       Des formations
     position: 7
-    level: 2
+    rank: 2
   - kind: block
     template: programs
     title: >-
       
-    position: 16
+    ranks:
+      self: false
     data:
       programs:
 
@@ -272,12 +286,13 @@ contents:
     title: >-
       Des fichiers
     position: 8
-    level: 2
+    rank: 2
   - kind: block
     template: files
     title: >-
       
-    position: 17
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -296,12 +311,13 @@ contents:
     title: >-
       Des définitions
     position: 9
-    level: 2
+    rank: 2
   - kind: block
     template: definitions
     title: >-
       
-    position: 18
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -320,12 +336,13 @@ contents:
     title: >-
       Une intégration HTML
     position: 10
-    level: 2
+    rank: 2
   - kind: block
     template: embed
     title: >-
       
-    position: 19
+    ranks:
+      self: false
     data:
       code: >-
         <b>ICI</b>
@@ -340,12 +357,13 @@ contents:
     title: >-
       Un bloc de contact
     position: 11
-    level: 2
+    rank: 2
   - kind: block
     template: contact
     title: >-
       
-    position: 20
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -386,12 +404,14 @@ contents:
     title: >-
       Un frise chronologique
     position: 12
-    level: 2
+    rank: 2
   - kind: block
     template: timeline
     title: >-
       
-    position: 10
+    ranks:
+      self: false
+      children: 3
     data:
       layout: vertical
       events:
@@ -414,12 +434,13 @@ contents:
     title: >-
       Une image
     position: 13
-    level: 2
+    rank: 2
   - kind: block
     template: image
     title: >-
       
-    position: 2
+    ranks:
+      self: false
     data:
       text: >-
         
@@ -441,12 +462,13 @@ contents:
     title: >-
       Un tableau
     position: 14
-    level: 2
+    rank: 2
   - kind: block
     template: datatable
     title: >-
       
-    position: 5
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -471,12 +493,13 @@ contents:
     title: >-
       Des chiffres-clés
     position: 15
-    level: 2
+    rank: 2
   - kind: block
     template: key_figures
     title: >-
       
-    position: 6
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -503,12 +526,13 @@ contents:
     title: >-
       Une galerie
     position: 16
-    level: 2
+    rank: 2
   - kind: block
     template: gallery
     title: >-
       
-    position: 7
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -569,7 +593,8 @@ contents:
     template: call_to_action
     title: >-
       Un appel à action
-    position: 8
+    ranks:
+      self: 3
     data:
       text: >-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor enim eu lorem congue, sed fringilla massa pulvinar. Phasellus molestie consectetur felis, ut mollis dolor interdum et. Vestibulum sagittis ut tortor ac dapibus.</p>
@@ -597,12 +622,13 @@ contents:
     title: >-
       Un témoignage
     position: 17
-    level: 2
+    rank: 2
   - kind: block
     template: testimonials
     title: >-
       
-    position: 9
+    ranks:
+      self: false
     data:
       testimonials:
         - text: >-
@@ -625,12 +651,13 @@ contents:
     title: >-
       Un audio
     position: 18
-    level: 2
+    rank: 2
   - kind: block
     template: sound
     title: >-
       
-    position: 4
+    ranks:
+      self: false
     data:
       file:
         id: "a0f454b7-f5ae-421c-8725-9812b8036b95"

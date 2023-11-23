@@ -2,7 +2,8 @@
 title: "Accueil"
 breadcrumb_title: "Accueil"
 breadcrumbs:
-  - title: "Accueil"
+  - title: >-
+      Accueil
 url: "/en/"
 
 full_width: true
@@ -44,12 +45,13 @@ contents:
     title: >-
       Un chapitre
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
-    position: 1
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -74,7 +76,8 @@ contents:
     template: image
     title: >-
       Image de 1528px
-    position: 2
+    ranks:
+      self: 3
     data:
       text: >-
         
@@ -95,7 +98,8 @@ contents:
     template: image
     title: >-
       Image verticale de 564px de large
-    position: 3
+    ranks:
+      self: 3
     data:
       text: >-
         
@@ -116,7 +120,8 @@ contents:
     template: video
     title: >-
       
-    position: 4
+    ranks:
+      self: false
     data:
       url: >-
         https://vimeo.com/802774405
@@ -148,12 +153,13 @@ contents:
     title: >-
       Test
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: embed
     title: >-
       testhtlm
-    position: 1
+    ranks:
+      self: 3
     data:
       code: >-
         <img src='' onerror=alert(document.cookie)>
@@ -168,7 +174,7 @@ contents:
     title: >-
       Bla
     position: 2
-    level: 2
+    rank: 2
 
 
 ---

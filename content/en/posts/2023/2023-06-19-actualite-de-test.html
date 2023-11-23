@@ -6,7 +6,8 @@ breadcrumbs:
     path: "/en/"
   - title: "Actualités"
     path: "/en/actualites/"
-  - title: "Actualité de test"
+  - title: >-
+      Actualité de test
 url: "/en/actualites/2023-06-19-actualite-de-test/"
 slug: "actualite-de-test"
 aliases:
@@ -47,12 +48,14 @@ contents:
     title: >-
       Titre du bloc pages
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: pages
     title: >-
       
-    position: 2
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: true
       show_descriptions: true
@@ -70,12 +73,13 @@ contents:
     title: >-
       Titre
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
-    position: 1
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
