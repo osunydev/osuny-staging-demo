@@ -7,12 +7,13 @@ fr:
   languageName: French
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
+    events: /agenda/:year-:month-:day-:slug/
+    events_categories: /agenda/:slug/
     organizations: /organisations/:slug/
     persons: /equipe/:slug/
   taxonomies:
     administrator: administrators
     author: authors
-    category: categories
     posts_category: posts_categories
     events_category: events_categories
     diploma: diplomas
@@ -25,12 +26,13 @@ en:
   languageName: English
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
+    events: /agenda/:year-:month-:day-:slug/
+    events_categories: /agenda/:slug/
     organizations: /organisations/:slug/
     persons: /equipe/:slug/
   taxonomies:
     administrator: administrators
     author: authors
-    category: categories
     posts_category: posts_categories
     events_category: events_categories
     diploma: diplomas
