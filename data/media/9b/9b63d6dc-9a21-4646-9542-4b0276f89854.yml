@@ -5,6 +5,6 @@ width: 588
 height: 746
 ratio: 0.7882037533512064
 format: portrait
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjliNjNkNmRjLTlhMjEtNDY0Ni05NTQyLTRiMDI3NmY4OTg1NCIsInB1ciI6ImJsb2JfaWQifX0=--92b739af9c435908ad9cc576ab63a83615133570/domenico_bruno_de_lobkowitz_watchingwindows_com_08.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/pkiffiq06uh1ylskrkjj327ho6ca
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjliNjNkNmRjLTlhMjEtNDY0Ni05NTQyLTRiMDI3NmY4OTg1NCIsInB1ciI6ImJsb2JfaWQifX0=--40e77418cbb0cf666b21be8cfa8eda6ee551fab3/domenico_bruno_de_lobkowitz_watchingwindows_com_08.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/pkiffiq06uh1ylskrkjj327ho6ca
 
