@@ -5,6 +5,6 @@ width: 564
 height: 564
 ratio: 1.0
 format: square
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM1MTcxMzZiLTIyZjQtNDAwNS1iMzk3LWZkMGU2MjQxNWVkZSIsInB1ciI6ImJsb2JfaWQifX0=--b0081fdcb97eb42a19d40b1510f3a36a3e4d3644/6e1f377e31b74ae4279c973f7013e195.jpg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/ypl7by6jwscccakiwvxbymeyzqmw
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM1MTcxMzZiLTIyZjQtNDAwNS1iMzk3LWZkMGU2MjQxNWVkZSIsInB1ciI6ImJsb2JfaWQifX0=--e59ffaf18bc9d5ba9fa8694042aa90cdb7d54268/6e1f377e31b74ae4279c973f7013e195.jpg
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/ypl7by6jwscccakiwvxbymeyzqmw
 

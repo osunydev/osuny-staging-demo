@@ -5,6 +5,6 @@ width: 477
 height: 133
 ratio: 3.5864661654135337
 format: landscape
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM3MWM4ODIxLTM1YmEtNDQxMC1hM2E2LWI0YmI2ZjEzMzNkMCIsInB1ciI6ImJsb2JfaWQifX0=--32e886a64d8c3aa54243089272e2d316f5a44c23/logo-noesya.svg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/tuakxahz64j9sv6n4fzhom3qcdd9
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM3MWM4ODIxLTM1YmEtNDQxMC1hM2E2LWI0YmI2ZjEzMzNkMCIsInB1ciI6ImJsb2JfaWQifX0=--8f2f7025dbd59a2a408806e02b799d301da37fa7/logo-noesya.svg
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/tuakxahz64j9sv6n4fzhom3qcdd9
 
