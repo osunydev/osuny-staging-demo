@@ -2,7 +2,7 @@
 
 fr:
   title: >-
-    Site démo
+    Site démo staging
   contentDir: content/fr
   languageCode: fr
   languageName: French
@@ -31,7 +31,7 @@ fr:
     volume: volumes
 en:
   title: >-
-    Site démo
+    Site démo staging
   contentDir: content/en
   languageCode: en
   languageName: English
