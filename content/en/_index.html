@@ -18,7 +18,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 1
@@ -64,22 +64,18 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 22
+  seconds: 24
   text: >-
     less than a minute
 contents:
-  - kind: heading
-    title: >-
-      Un chapitre
-    slug: "un-chapitre"
-    position: 1
-    rank: 2
   - kind: block
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
-      self: false
+      self: 2
     data:
       layout: no_background
       text: >-
@@ -101,11 +97,33 @@ contents:
 
 
   - kind: block
+    template: embed
+    title: >-
+      testhtlm
+    slug: >-
+      testhtlm
+    ranks:
+      self: 2
+    data:
+      code: >-
+        <img src="" onerror="alert(document.cookie)">
+
+      transcription_title: >-
+        
+
+      transcription: >-
+        
+
+
+
+  - kind: block
     template: image
     title: >-
       Image de 1528px
+    slug: >-
+      image-de-1528px
     ranks:
-      self: 3
+      self: 2
     data:
       text: >-
         
@@ -126,8 +144,10 @@ contents:
     template: image
     title: >-
       Image verticale de 564px de large
+    slug: >-
+      image-verticale-de-564px-de-large
     ranks:
-      self: 3
+      self: 2
     data:
       text: >-
         
@@ -148,13 +168,21 @@ contents:
     template: video
     title: >-
       
+    slug: >-
+      
     ranks:
-      self: false
+      self: 2
     data:
+      description: >-
+        
+
       url: >-
         https://vimeo.com/802774405
 
       video_title: >-
+        
+
+      transcription: >-
         
 
       video_iframe: >-
@@ -172,43 +200,7 @@ contents:
           https://player.vimeo.com/video/802774405?autoplay=1&amp;quality=360p
         iframe: >-
           <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/802774405" title="Video"></iframe>
-      transcription: >-
-        
 
-
-
-
-  - kind: heading
-    title: >-
-      Test
-    slug: "test"
-    position: 2
-    rank: 2
-  - kind: block
-    template: embed
-    title: >-
-      testhtlm
-    ranks:
-      self: 3
-    data:
-      code: >-
-        <img src="" onerror="alert(document.cookie)">
-
-      transcription_title: >-
-        
-
-      transcription: >-
-        
-
-
-
-
-  - kind: heading
-    title: >-
-      Bla
-    slug: "bla"
-    position: 3
-    rank: 2
 
 
 ---
