@@ -5,7 +5,7 @@ width: 1900
 height: 1196
 ratio: 1.588628762541806
 format: landscape
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM0ZTNhMTZiLTRlZDAtNGYzYi05OGEyLTczMzRhMTQ0NGI4ZiIsInB1ciI6ImJsb2JfaWQifX0=--e765f4656bd57cc4b405e34f2608e9c0777e9360/mert-amp-marcus-entre-provocation-et-surrealisme-photo-2.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/z8m1l8e5ubz21uznlvs5c44ecfas
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImM0ZTNhMTZiLTRlZDAtNGYzYi05OGEyLTczMzRhMTQ0NGI4ZiIsInB1ciI6ImJsb2JfaWQifX0=--e765f4656bd57cc4b405e34f2608e9c0777e9360
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM0ZTNhMTZiLTRlZDAtNGYzYi05OGEyLTczMzRhMTQ0NGI4ZiIsInB1ciI6ImJsb2JfaWQifX0=--e1f9ea18d38ea479ae64a1aec033a7d92b41e52b/mert-amp-marcus-entre-provocation-et-surrealisme-photo-2.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/z8m1l8e5ubz21uznlvs5c44ecfas
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImM0ZTNhMTZiLTRlZDAtNGYzYi05OGEyLTczMzRhMTQ0NGI4ZiIsInB1ciI6ImJsb2JfaWQifX0=--e1f9ea18d38ea479ae64a1aec033a7d92b41e52b
 

@@ -13,8 +13,8 @@ lastmod: 2024-09-29T09:28:18+02:00
 meta:
   hugo:
     permalink: "/en/about-blocks/"
-    path: "/pages/about-blocks"
     file: "content/en/pages/about-blocks/_index.html"
+    path: "about-blocks"
     slug: "about-blocks"
   dates:
     created_at: 2023-06-19T14:10:02+02:00
@@ -88,6 +88,62 @@ contents:
 
 
   - kind: block
+    template: key_figures
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      self: 2
+    data:
+      description: >-
+        
+
+      figures:
+        - number: 3500
+          unit: >-
+            km
+
+          description: >-
+            parcourus
+
+
+        - number: 0.235
+          unit: >-
+            mm
+
+          description: >-
+            parcourus
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      self: 2
+    data:
+      layout: no_background
+      text: >-
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a est placerat, molestie velit ultrices, consequat diam. Sed egestas vulputate neque, eget eleifend elit vehicula sit amet. Sed massa ipsum, faucibus at malesuada non, feugiat vel purus. Ut vehicula luctus semper. Donec vitae purus in diam maximus fringilla id at libero. Curabitur pellentesque, mi eget laoreet ultrices, elit nunc elementum diam, sit amet vestibulum ligula leo in risus. Pellentesque euismod diam non felis laoreet, at facilisis est dictum. Aliquam ornare nisl ut ligula placerat, id hendrerit felis tristique. Nullam at euismod risus. Vivamus vitae nibh mi. Ut ultricies vehicula ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non sollicitudin mi, nec maximus ligula.</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
     template: features
     title: >-
       
@@ -152,15 +208,14 @@ contents:
 
       layout: grid
       pages:
-        - permalink: "/en/actualites/"
-          path: "/posts"
+        - path: "/en/actualites/"
           slug: "actualites"
-          file: "content/en/posts/_index.html"
-        - permalink: "/en/mentions-legales/"
-          path: "/pages/mentions-legales"
+          file: "posts/_index.html"
+          external: false
+        - path: "/en/mentions-legales/"
           slug: "mentions-legales"
-          file: "content/en/pages/mentions-legales/_index.html"
-
+          file: "pages/mentions-legales/_index.html"
+          external: false
 
 
   - kind: block
@@ -186,11 +241,7 @@ contents:
         summary: true
 
       posts:
-        - permalink: "/en/actualites/2023-06-19-actualite-de-test/"
-          path: "/posts/2023/2023-06-19-actualite-de-test"
-          slug: "actualite-de-test"
-          file: "content/en/posts/2023/2023-06-19-actualite-de-test.html"
-
+        - "2023/2023-06-19-actualite-de-test"
 
 
   - kind: block
@@ -212,10 +263,7 @@ contents:
         link: true
 
       persons:
-        - permalink: "/en/equipe/personne-test/"
-          path: "/persons/personne-test"
-          slug: "personne-test"
-          file: "content/en/persons/personne-test.html"
+        - slug: "personne-test"
           role: >-
             
 
@@ -299,7 +347,6 @@ contents:
       programs:
 
 
-
   - kind: block
     template: files
     title: >-
@@ -380,22 +427,11 @@ contents:
       information: >-
         
 
-      address:
-        address: >-
-          37 rue Orfila
-
-        zipcode: >-
-          75020
-
-        city: >-
-          Paris
-
-        country: >-
-          France
-
       contact_details:
         postal_address:
           data:
+            address_name: >-
+              
             address: >-
               37 rue Orfila
             address_additional: >-
@@ -411,31 +447,31 @@ contents:
                 FR
               alpha3: >-
                 FRA
-            country: >-
-              France
           text: >-
             37 rue Orfila 75020 Paris FRANCE
           html: >-
             <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">37 rue Orfila</span> <span itemprop="postalCode">75020</span> <span itemprop="addressLocality">Paris</span> <span itemprop="addressCountry">FRANCE</span></address>
+
         phone_numbers:
-          - label: >-
-              +33 6 87 60 21 93
-            value: >-
-              tel:+33687602193
+          list:
+            - label: >-
+                +33 6 87 60 21 93
+              value: >-
+                tel:+33687602193
+
         emails:
-          - label: >-
-              arnaud.levy@noesya.coop
-            value: >-
-              mailto:arnaud.levy@noesya.coop
+          list:
+            - label: >-
+                arnaud.levy@noesya.coop
+              value: >-
+                mailto:arnaud.levy@noesya.coop
+
+        websites:
+
+
         social_networks:
-      phone_numbers: ["+33 6 87 60 21 93"]
 
-      url: >-
-        
 
-      emails: ["arnaud.levy@noesya.coop"]
-
-      socials:
       timetable:
 
 
@@ -486,61 +522,6 @@ contents:
 
         credit: >-
           
-
-
-
-  - kind: block
-    template: datatable
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      self: 2
-    data:
-      description: >-
-        
-
-      columns: ["Colonne 2", "Colonne 3"]
-
-      rows:
-        - ["Ligne 1", "A", "B"]
-
-        - ["Ligne 2", "C", "D"]
-
-      caption: >-
-        
-
-
-
-  - kind: block
-    template: key_figures
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      self: 2
-    data:
-      description: >-
-        
-
-      figures:
-        - number: 3500
-          unit: >-
-            km
-
-          description: >-
-            parcourus
-
-
-        - number: 0.235
-          unit: >-
-            mm
-
-          description: >-
-            parcourus
-
 
 
 
@@ -609,7 +590,7 @@ contents:
 
 
   - kind: block
-    template: chapter
+    template: datatable
     title: >-
       
     slug: >-
@@ -617,18 +598,17 @@ contents:
     ranks:
       self: 2
     data:
-      layout: no_background
-      text: >-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a est placerat, molestie velit ultrices, consequat diam. Sed egestas vulputate neque, eget eleifend elit vehicula sit amet. Sed massa ipsum, faucibus at malesuada non, feugiat vel purus. Ut vehicula luctus semper. Donec vitae purus in diam maximus fringilla id at libero. Curabitur pellentesque, mi eget laoreet ultrices, elit nunc elementum diam, sit amet vestibulum ligula leo in risus. Pellentesque euismod diam non felis laoreet, at facilisis est dictum. Aliquam ornare nisl ut ligula placerat, id hendrerit felis tristique. Nullam at euismod risus. Vivamus vitae nibh mi. Ut ultricies vehicula ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non sollicitudin mi, nec maximus ligula.</p>
-
-      notes: >-
+      description: >-
         
 
+      columns: ["Colonne 2", "Colonne 3"]
 
-      alt: >-
-        
+      rows:
+        - ["Ligne 1", "A", "B"]
 
-      credit: >-
+        - ["Ligne 2", "C", "D"]
+
+      caption: >-
         
 
 
