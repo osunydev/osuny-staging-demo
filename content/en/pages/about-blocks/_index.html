@@ -13,6 +13,7 @@ lastmod: 2024-09-29T09:28:18+02:00
 meta:
   hugo:
     permalink: "/en/about-blocks/"
+    path: "/pages/about-blocks"
     file: "content/en/pages/about-blocks/_index.html"
     slug: "about-blocks"
   dates:
@@ -151,10 +152,15 @@ contents:
 
       layout: grid
       pages:
-        - slug: "actualites"
+        - permalink: "/en/actualites/"
+          path: "/posts"
+          slug: "actualites"
           file: "content/en/posts/_index.html"
-        - slug: "mentions-legales"
+        - permalink: "/en/mentions-legales/"
+          path: "/pages/mentions-legales"
+          slug: "mentions-legales"
           file: "content/en/pages/mentions-legales/_index.html"
+
 
 
   - kind: block
@@ -180,7 +186,11 @@ contents:
         summary: true
 
       posts:
-        - "/en/actualites/2023-06-19-actualite-de-test/"
+        - permalink: "/en/actualites/2023-06-19-actualite-de-test/"
+          path: "/posts/2023/2023-06-19-actualite-de-test"
+          slug: "actualite-de-test"
+          file: "content/en/posts/2023/2023-06-19-actualite-de-test.html"
+
 
 
   - kind: block
@@ -202,7 +212,10 @@ contents:
         link: true
 
       persons:
-        - slug: "personne-test"
+        - permalink: "/en/equipe/personne-test/"
+          path: "/persons/personne-test"
+          slug: "personne-test"
+          file: "content/en/persons/personne-test.html"
           role: >-
             
 
@@ -284,6 +297,7 @@ contents:
         summary: false
 
       programs:
+
 
 
   - kind: block
