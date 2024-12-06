@@ -5,7 +5,7 @@ width: 2560
 height: 1600
 ratio: 1.6
 format: landscape
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6ImJlOTFmODdjLWUwM2ItNDczNC05MGFjLWQyOWZhZTkwMzA3MiIsInB1ciI6ImJsb2JfaWQifX0=--cbeb5144b87b6634f4bb5659430c1a2ef0b20138/ObservableUniverse.png
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/oao5amz1vvpaorkfgjyorf6rfhk4
-download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImJlOTFmODdjLWUwM2ItNDczNC05MGFjLWQyOWZhZTkwMzA3MiIsInB1ciI6ImJsb2JfaWQifX0=--cbeb5144b87b6634f4bb5659430c1a2ef0b20138
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6ImJlOTFmODdjLWUwM2ItNDczNC05MGFjLWQyOWZhZTkwMzA3MiIsInB1ciI6ImJsb2JfaWQifX0=--ee862af0b81eee7729272e4cec15d31968e64292/ObservableUniverse.png
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/oao5amz1vvpaorkfgjyorf6rfhk4
+download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImJlOTFmODdjLWUwM2ItNDczNC05MGFjLWQyOWZhZTkwMzA3MiIsInB1ciI6ImJsb2JfaWQifX0=--ee862af0b81eee7729272e4cec15d31968e64292
 

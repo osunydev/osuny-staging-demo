@@ -5,7 +5,7 @@ width: 1528
 height: 1000
 ratio: 1.528
 format: landscape
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjA1MWRhMmY3LTFkMzctNDVjZC05MGFmLTM5N2JiNDFjZDhjZSIsInB1ciI6ImJsb2JfaWQifX0=--37038d94c34f78052f4f06d8d058d65d34c2ae67/011_AP162273-1.jpg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/d80d7rmbvg3wvfi8so9043cwfkw2
-download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjA1MWRhMmY3LTFkMzctNDVjZC05MGFmLTM5N2JiNDFjZDhjZSIsInB1ciI6ImJsb2JfaWQifX0=--37038d94c34f78052f4f06d8d058d65d34c2ae67
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjA1MWRhMmY3LTFkMzctNDVjZC05MGFmLTM5N2JiNDFjZDhjZSIsInB1ciI6ImJsb2JfaWQifX0=--01a8d8dbc5235e0b0c3b94bdcc90d85260715e47/011_AP162273-1.jpg
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/d80d7rmbvg3wvfi8so9043cwfkw2
+download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjA1MWRhMmY3LTFkMzctNDVjZC05MGFmLTM5N2JiNDFjZDhjZSIsInB1ciI6ImJsb2JfaWQifX0=--01a8d8dbc5235e0b0c3b94bdcc90d85260715e47
 
