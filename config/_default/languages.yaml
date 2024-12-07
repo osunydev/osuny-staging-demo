@@ -9,15 +9,6 @@ fr:
   params:
     contact_details:
 
-      phone_numbers:
-
-      emails:
-
-      websites:
-
-      social_networks:
-
-
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
@@ -48,15 +39,6 @@ en:
   languageName: English
   params:
     contact_details:
-
-      phone_numbers:
-
-      emails:
-
-      websites:
-
-      social_networks:
-
 
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
