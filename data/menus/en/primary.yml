@@ -5,10 +5,12 @@ items:
   target: "/en/actualites/"
   kind: page
   children: []
+  path: "/posts"
   file: content/en/posts/_index.html
 - title: About blocks
   target: "/en/about-blocks/"
   kind: page
   children: []
+  path: "/pages/about-blocks"
   file: content/en/pages/about-blocks/_index.html
 
