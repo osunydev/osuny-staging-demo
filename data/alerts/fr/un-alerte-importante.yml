@@ -1,0 +1,13 @@
+---
+title: >-
+  Un alerte importante
+level: warning
+content: >-
+  <p>Avec un lien externe et du <b>texte</b> <b>en gras, </b>puis <i>en italic.</i></p><p>On ajoute un petit <a href="https://osuny.org" target="_blank" rel="noreferrer">lien supplémentaire ici  <span class="sr-only">(lien externe)</span></a>.</p><p>Voilà on est pas mal là.</p>
+button:
+  title: >-
+    Un lien vers le monde extérieur
+  url: >-
+    https://osuny.org
+  target_blank: true
+---
