@@ -1,6 +1,13 @@
 ---
 title: Menu principal
 items:
+- title: Laboratoires
+  target: "/fr/laboratoires/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/laboratories"
+  file: content/fr/laboratories/_index.html
 - title: Actualités
   target: "/fr/actualites/"
   kind: page
@@ -8,13 +15,6 @@ items:
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
-- title: Expositions
-  target: "/fr/expositions/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
 - title: Équipe
   target: "/fr/equipe/"
   kind: page
@@ -85,4 +85,11 @@ items:
   children: []
   path: "/locations"
   file: content/fr/locations/_index.html
+- title: Expositions
+  target: "/fr/expositions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/exhibitions"
+  file: content/fr/exhibitions/_index.html
 
