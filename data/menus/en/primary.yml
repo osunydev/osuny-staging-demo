@@ -2,17 +2,21 @@
 title: Menu principal
 items:
 - title: Actualités
+  slug: actualites
   target: "/en/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/en/posts/_index.html
 - title: About blocks
+  slug: about-blocks
   target: "/en/about-blocks/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/about-blocks"
   file: content/en/pages/about-blocks/_index.html
 
