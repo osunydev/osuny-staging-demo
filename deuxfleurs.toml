@@ -13,3 +13,56 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/actualites/2023-06-19-actualite-de-test/index.html"
+to = "/en/actualites/2023-06-19-actualite-de-test/"
+
+[[redirects]]
+from = "/equipe/index.html"
+to = "/en/equipe/"
+
+[[redirects]]
+from = "/accessibilite/index.html"
+to = "/en/accessibilite/"
+
+[[redirects]]
+from = "/en/a-propos/index.html"
+to = "/en/about-blocks/"
+
+[[redirects]]
+from = "/mentions-legales/index.html"
+to = "/en/mentions-legales/"
+
+[[redirects]]
+from = "/actualites/index.html"
+to = "/en/actualites/"
+
+[[redirects]]
+from = "/plan-du-site/index.html"
+to = "/en/plan-du-site/"
+
+[[redirects]]
+from = "/politique-de-confidentialite/index.html"
+to = "/en/politique-de-confidentialite/"
+
+[[redirects]]
+from = "/a-propos/index.html"
+to = "/en/about-blocks/"
+
+[[redirects]]
+from = "/organisations/index.html"
+to = "/en/organisations/"
+
+[[redirects]]
+from = "/equipe/equipe-editoriale/index.html"
+to = "/en/equipe/equipe-editoriale/"
+
+[[redirects]]
+from = "/en/organisations/noesya/index.html"
+to = "/fr/organisations/noesya/"
+
+[[redirects]]
+from = "/organisations/noesya/index.html"
+to = "/fr/organisations/noesya/"
+
